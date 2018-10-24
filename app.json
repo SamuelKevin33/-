@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/note/note",
+    "pages/recipes/recipes"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7e88ac",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index_logo.png",
+        "selectedIconPath": "images/index_hover.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "记",
+        "iconPath": "images/note_logo.png",
+        "selectedIconPath": "images/note_hover.png"
+      },
+      {
+        "pagePath": "pages/recipes/recipes",
+        "text": "谱",
+        "iconPath": "images/recipes_logo.png",
+        "selectedIconPath": "images/recipes_hover.png"
+      }
+    ],
+    "backgroundColor": "#7e88ac",
+    "color": "#f2fee6",
+    "borderStyle": "white",
+    "selectedColor": "#abe1d3"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
