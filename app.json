@@ -1,14 +1,15 @@
 {
   "pages":[
+    "pages/recipes/recipes",
     "pages/index/index",
-    "pages/note/note",
-    "pages/recipes/recipes"
+    "pages/note/note"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#7e88ac",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "list": [

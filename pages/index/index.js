@@ -8,7 +8,9 @@ Page({
     userInfo: {},
     dateInfo: '',
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    money_sum: 123,
+    list_num: 3
   },
   //事件处理函数
   bindViewTap: function() {
